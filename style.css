@@ -1,4 +1,27 @@
-div{
-    background-color: rgb(0, 120, 80);
-    padding: 20px 10px;
+header ul li {
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    /* list-style-type: none; */
+    color: rgb(22, 21, 21);
+}
+
+header {
+    background-color: aquamarine;
+    padding: 10px 5px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back {
+    background-image: url(./alowat.jpg);
+    width: 100%;
+    padding: 10px 20px;
 }
