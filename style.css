@@ -1,27 +1,29 @@
-header ul li {
-    /* text-decoration: none; */
-    list-style-type: none;
+.card {
+    background-image: url(./elephant-1822636_1920.jpg);
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-header ul li a {
-    text-decoration: none;
-    /* list-style-type: none; */
-    color: rgb(22, 21, 21);
-}
-
-header {
-    background-color: aquamarine;
-    padding: 10px 5px;
-}
-
-header ul {
+.card div {
+    padding: 135px 15px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 60px;
 }
 
-.back {
-    background-image: url(./alowat.jpg);
-    width: 100%;
-    padding: 10px 20px;
+.card div h3 {
+    color: rgb(176, 165, 165);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card div h1 {
+    color: white;
+    font-size: 1.9em;
+}
+
+.card div h4 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
