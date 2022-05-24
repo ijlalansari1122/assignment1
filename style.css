@@ -10,3 +10,54 @@ section {
     background-image: url(./alowat.jpg);
     width: 100%;
 }
+
+.main {
+    margin: 40px 20px;
+}
+
+.inner {
+    background: #242344;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.form-label {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control,
+span {
+    color: white;
+}
+
+header h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+.form-check-label {
+    color: white;
+    font-size: 1.2em;
+}
+
+.button {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.button .submit {
+    padding: 10px 190px;
+    color: #242344;
+    border-radius: 10px;
+    ;
+    background-color: rgba(52, 197, 52, 0.897);
+}
