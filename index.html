@@ -6,21 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hello world</title>
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="./style.css">
 </head>
 
 
 <section>
+    <form>
+        <header>
+            <h2>freeCodeCamp Survey Form</h2>
+            <h3>Thank you for taking the time to help us improve the platform</h3>
+        </header>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Enter your name">
 
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
 
-    <div class="content">
-        <h3>Hi iam a web developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sunt?</p>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputage" class="form-label" optional>Age</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Age" optional>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputage" class="form-label" optional>Which option best describes your current role?</label>
+            <select class="form-select" aria-label="Default select example">
 
-        <button>Submit</button>
+            <option selected>select current role</option>
+            <option value="1">student</option>
+            <option value="2">full time job</option>
+            <option value="3">self learner</option>
+        </select></div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
 
-    </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 </html>
